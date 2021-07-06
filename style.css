@@ -1,0 +1,32 @@
+body{
+    font-family: 'Bona Nova', serif;
+}
+h1{
+    font-size: 40px;
+}
+.tomato-color{
+    color: tomato;
+}
+.midnight-blue{
+    color: #2c3e50;
+}
+.female-one{
+    display: flex;
+    margin-bottom: 100px;
+}
+.width-right{
+    width: 50%;
+    padding: 5%;
+    text-align: justify;
+}
+.width-right img{
+    width: 70%;
+}
+.link-button{
+    text-decoration: none;
+    background-image: linear-gradient(#e67e22 #f39c12);
+    padding: 10px 40px;
+    color: black;
+    font-weight: 400;
+    border-radius: 5px;
+}
