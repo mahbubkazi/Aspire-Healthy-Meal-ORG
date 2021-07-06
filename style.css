@@ -1,5 +1,6 @@
 body{
     font-family: 'Bona Nova', serif;
+    margin-left: 25px;
 }
 h1{
     font-size: 40px;
@@ -12,11 +13,11 @@ h1{
 }
 .female-one{
     display: flex;
-    margin-bottom: 100px;
+    margin-bottom: 50px;
 }
 .width-right{
     width: 50%;
-    padding: 5%;
+    padding: 5px;
     text-align: justify;
 }
 .width-right img{
@@ -29,4 +30,13 @@ h1{
     color: black;
     font-weight: 400;
     border-radius: 5px;
+}
+.personal-info{
+    display: flex;
+    margin: 50px;
+}
+.background-banner{
+    background-image: url(/images/shapes/Frame\ 57.jpg);
+    background-repeat: no-repeat;
+    background-position: right;
 }
