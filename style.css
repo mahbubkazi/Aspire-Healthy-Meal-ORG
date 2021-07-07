@@ -1,42 +1,113 @@
-body{
-    font-family: 'Bona Nova', serif;
-    margin-left: 25px;
+* {
+  margin: 0;
+  padding: 0;
 }
-h1{
-    font-size: 40px;
+body {
+  font-family: "Bona Nova", serif;
 }
-.tomato-color{
-    color: tomato;
+h1 {
+  font-size: 60px;
+  font-weight: 700;
 }
-.midnight-blue{
-    color: #2c3e50;
+.tomato-color {
+  color: tomato;
 }
-.female-one{
-    display: flex;
-    margin-bottom: 50px;
+.midnight-blue {
+  color: #2c3e50;
 }
-.width-right{
-    width: 50%;
-    padding: 5px;
-    text-align: justify;
+.female-one {
+  display: flex;
+  margin-bottom: 50px;
 }
-.width-right img{
-    width: 70%;
+.container {
+  width: 90%;
+  margin: auto;
 }
-.link-button{
-    text-decoration: none;
-    background-image: linear-gradient(#e67e22 #f39c12);
-    padding: 10px 40px;
-    color: black;
-    font-weight: 400;
-    border-radius: 5px;
+.d-flex {
+  display: flex;
+  justify-content: space-between;
 }
-.personal-info{
-    display: flex;
-    margin: 50px;
+.half-width-img img {
+  width: 100%;
 }
-.background-banner{
-    background-image: url(/images/shapes/Frame\ 57.jpg);
-    background-repeat: no-repeat;
-    background-position: right;
+.half-width {
+  width: 45%;
+}
+.half-width-img {
+  width: 38%;
+}
+.link-button {
+  text-decoration: none;
+  padding: 15px 30px;
+  color: black;
+  font-weight: 400;
+  background: linear-gradient(45deg, crimson, tomato);
+  cursor: pointer;
+  color: #fff;
+  font-size: 18px;
+  border-radius: 20px;
+  margin: 20px 0;
+  display: inline-block;
+}
+.personal-info {
+  display: flex;
+  justify-content: space-between;
+}
+.width-right h2 {
+  font-size: 45px;
+  margin: 15px 0;
+}
+.width-right p {
+  margin: 15px 0;
+}
+p {
+  color: #444;
+  font-size: 18px;
+}
+.background-banner {
+  background-image: url(images/shapes/7.png);
+  background-repeat: no-repeat;
+}
+.Highlights-Area {
+  text-align: center;
+  margin-top: 55px;
+}
+.recipie-box {
+  display: flex;
+  justify-content: space-between;
+}
+.chart-lists {
+  width: 30%;
+  padding: 2%;
+  margin: 2%;
+  box-shadow: 1px 1px 10px rgba(146, 146, 146, 0.5);
+  border-radius: 20px;
+  text-align: justify;
+}
+.chart-lists img {
+  width: 100%;
+  border-radius: 20px;
+}
+footer p {
+  text-align: center;
+}
+footer h2 {
+  color: #666;
+  margin: 20px 0;
+}
+footer span {
+  color: gold;
+}
+footer {
+  background-color: #021227;
+  padding: 20px 0;
+  color: #fff;
+  text-align: center;
+}
+footer b {
+  text-transform: capitalize;
+  color: #888;
+  margin-top: 2rem;
+  margin-bottom: 1rem;
+  display: inline-block;
 }
